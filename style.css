@@ -1,0 +1,156 @@
+
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background-color: #1c1c1c;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+section h2 {
+  font-family: 'Playfair Display', serif;
+  color: #ccc;
+  font-size: 2rem;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+/* GALERIA */
+.galeria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.galeria img {
+  max-width: 300px;
+  border-radius: 8px;
+  border: 2px solid #444;
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+  border-color: #888;
+}
+
+/* FORMULÁRIO */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background: #333;
+  color: #fff;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #444;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #666;
+}
+
+/* LINKS SOCIAIS */
+.links-sociais {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-whatsapp, .btn-instagram {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-whatsapp {
+  background-color: #25D366;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1DA851;
+}
+
+.btn-instagram {
+  background-color: #E4405F;
+}
+
+.btn-instagram:hover {
+  background-color: #C13548;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
